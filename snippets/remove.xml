@@ -17,7 +17,6 @@
   <remove-project name="device/generic/mini-emulator-x86" />
   <remove-project name="device/generic/mini-emulator-x86_64" />
   <remove-project name="device/generic/opengl-transport" />
-  <remove-project name="device/generic/qemu" />
   <remove-project name="device/generic/trusty" />
   <remove-project name="device/generic/uml" />
   <remove-project name="device/generic/x86" />
@@ -76,8 +75,6 @@
   <remove-project name="device/linaro/poplar" />
   <remove-project name="device/linaro/poplar-kernel" />
   <remove-project name="device/sample" />
-  <remove-project name="device/ti/beagle-x15" />
-  <remove-project name="device/ti/beagle-x15-kernel" />
   <remove-project name="kernel/configs" />
 
   <!-- external repos -->
@@ -98,7 +95,6 @@
   <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/base" />
   <remove-project name="platform/frameworks/native" />
-  <remove-project name="platform/frameworks/libs/net" />
 
   <!-- Hardware repos -->
   <remove-project name="platform/hardware/libhardware" />

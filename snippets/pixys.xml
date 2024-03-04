@@ -3,7 +3,7 @@
 
   <remote name="pixys"
           fetch="https://github.com/PixysOS/"
-          revision="fourteen"  />
+          revision="fourteen-v2"  />
 
   <remote name="github"
           fetch="https://github.com/" />
@@ -13,7 +13,7 @@
 
   <remote name="pixys-gitlab"
           fetch="https://gitlab.com/PixysOS-fourteen"
-          revision="fourteen" />
+          revision="fourteen-v2" />
 
   <remote name="pixys-devices"
           fetch="https://github.com/PixysOS-Devices/" />
@@ -61,7 +61,6 @@
   <project path="frameworks/av" name="frameworks_av" remote="pixys" />
   <project path="frameworks/base" name="frameworks_base" remote="pixys" />
   <project path="frameworks/native" name="frameworks_native" remote="pixys" />
-  <project path="frameworks/libs/net" name="frameworks_libs_net" remote="pixys" />
 
   <!-- Hardware repos -->
   <project path="hardware/libhardware" name="hardware_libhardware" groups="pdk" remote="pixys" />
@@ -96,7 +95,6 @@
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="pixys" />
   <project path="packages/apps/GameSpace" name="packages_apps_GameSpace" remote="pixys" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="pixys" />
-  <project path="packages/apps/RepainterServicePriv" name="kdrag0n/android_packages_apps_RepainterServicePriv" remote="github" revision="main" />
   <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="pixys" />
   <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="pixys" />
   <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" groups="pdk-cw-fs,pdk-fs" remote="pixys-gitlab" />
@@ -109,7 +107,6 @@
   <project path="vendor/pixys-prebuilts" name="vendor_pixys-prebuilts" remote="pixys-gitlab" />
   <project path="vendor/gms" name="vendor_gms" remote="pixys-gitlab" clone-depth="1" />
   <project path="vendor/certification" name="vendor_certification" remote="pixys-gitlab" />
-  <project path="vendor/pixel-framework" name="vendor_pixel-framework" remote="pixys" />
   <project path="vendor/microsoft" name="vendor_microsoft" remote="pixys-gitlab" />
 
   <!-- Prebuilts -->
@@ -124,8 +121,8 @@
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="pixys" />
   <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="pixys" />
   <project path="device/qcom/sepolicy_vndr/legacy-um" name="device_qcom_sepolicy_vndr" groups="qcom,lahaina" revision="fourteen-legacy-um" remote="pixys" />
-  <project path="device/qcom/sepolicy_vndr/sm8450" name="device_qcom_sepolicy_vndr" groups="qcom,waipio-vendor" revision="fourteen-caf-sm8450" remote="pixys" />
-  <project path="device/qcom/sepolicy_vndr/sm8550" name="device_qcom_sepolicy_vndr" groups="qcom,kailua-vendor" revision="fourteen-caf-sm8550" remote="pixys" />
+  <project path="device/qcom/sepolicy_vndr/sm8450" name="device_qcom_sepolicy_vndr" groups="qcom,waipio-vendor" revision="fourteen-v2-caf-sm8450" remote="pixys" />
+  <project path="device/qcom/sepolicy_vndr/sm8550" name="device_qcom_sepolicy_vndr" groups="qcom,kailua-vendor" revision="fourteen-v2-caf-sm8550" remote="pixys" />
   <project path="device/mediatek/sepolicy_vndr" name="device_mediatek_sepolicy_vndr" remote="pixys" />
 
   <!-- System Repos -->
