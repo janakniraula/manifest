@@ -31,10 +31,10 @@ repo sync -c -j8 --force-sync --no-clone-bundle --no-tags
 ```bash
 
 $ . build/envsetup.sh
-$ lunch pixys_$device-userdebug
-$ make pixys (for otapackage) or make pixys-fastboot (for fastboot package)
+$ lunch pixys_$device-ap1a-userdebug
+$ m pixysrelease ( for both fastboot and ota packages)
 ```
 #
 ### Ready to Release ? ###
 
-**For releasing it on xda , use** [this template](https://github.com/PixysOS/Pixys_doc/raw/fourteen/XDA_ThreadTemplate)
+**For releasing it on xda , use** [this template](https://github.com/PixysOS/Pixys_doc/raw/fourteen-v2/XDA_ThreadTemplate)
