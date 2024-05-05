@@ -1382,4 +1382,6 @@
   <!-- Pixys repos -->
   <include name="snippets/pixys.xml" />
 
+  <!-- Extra repos -->
+  <include name="snippets/extras.xml" />
 </manifest>

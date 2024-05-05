@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="extras"
+          fetch="https://github.com/janakniraula/"
+          revision="fourteen-v2"  />
+
+  <!-- Frameworks Repos -->
+  <project path="frameworks/av" name="pixys_frameworks_av" remote="extras" />
+  <project path="frameworks/base" name="pixys_frameworks_base" remote="extras" />
+
+  <!-- Packages Repos -->
+  <project path="packages/apps/Settings" name="pixys_packages_apps_Settings" remote="extras" />
+
+</manifest>
